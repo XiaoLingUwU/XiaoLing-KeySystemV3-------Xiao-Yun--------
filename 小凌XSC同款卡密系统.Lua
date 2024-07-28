@@ -9,8 +9,8 @@ end
 
 local function onFail()
     OrionLib:MakeNotification({
-        Name = "提示",
-        Content = "验证失败请重新输入",
+        Name = "卡密失败",
+        Content = "验证失败请重新输入卡密",
         Duration = 5
     })
 end
@@ -18,8 +18,8 @@ end
 local function verifyKey(input)
     if input == Key then
         OrionLib:MakeNotification({
-            Name = "提示",
-            Content = "验证成功正在加载中...",
+            Name = "卡密成功正在进入",
+            Content = "验证成功正在打开冬凌中心.",
             Duration = 5
         })
         wait(5)
@@ -31,20 +31,20 @@ local function verifyKey(input)
 end
 
 local Window = OrionLib:MakeWindow({
-    Name = "卡密系统",
+    Name = "卡密页面",
     HidePremium = false,
     SaveConfig = true,
-    ConfigFolder = "简单实用"
+    ConfigFolder = "By:小凌、Krx"
 })
 
 local Tab = Window:MakeTab({
-    Name = "验证区",
+    Name = "卡密系统V3",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 local KeySection = Tab:AddSection({
-    Name = "验证"
+    Name = "获取卡密：767836834 卡密3天一换别想白嫖"
 })
 
 Tab:AddTextbox({
