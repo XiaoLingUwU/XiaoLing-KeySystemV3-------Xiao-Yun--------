@@ -1,6 +1,6 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
-local Key = "XiaoLing_ABC-PLM-398-X"
+local Key = "XiaoLing-EAB36-C51EC-06F8F-89A8A-793ED"
 
 local function onSuccess()
     print("功能加载完成")
