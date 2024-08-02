@@ -32,7 +32,7 @@ local ScreenGui = Instance.new("ScreenGui")
  local Title = Instance.new("TextLabel") 
  Title.Size = UDim2.new(1, 0, 0, 30) 
  Title.Position = UDim2.new(0, 0, 0.05, 0) 
- Title.Text = "冬凌中心卡密系统V3" 
+ Title.Text = "冬凌-卡密系统V3" 
  Title.TextSize = 18 
  Title.TextColor3 = Color3.fromRGB(255, 255, 255) 
  Title.BackgroundTransparency = 1 
@@ -41,7 +41,7 @@ local ScreenGui = Instance.new("ScreenGui")
  local Instructions = Instance.new("TextLabel") 
  Instructions.Size = UDim2.new(1, 0, 0, 30) 
  Instructions.Position = UDim2.new(0, 0, 0.2, 0) 
- Instructions.Text = "By：小凌Ez&lol" 
+ Instructions.Text = "罗荣欣😘" 
  Instructions.TextSize = 13 
  Instructions.TextColor3 = Color3.fromRGB(150, 150, 150) 
  Instructions.BackgroundTransparency = 1 
@@ -51,7 +51,7 @@ local ScreenGui = Instance.new("ScreenGui")
  TextBox.Size = UDim2.new(0.8, 0, 0.2, 0) 
  TextBox.Position = UDim2.new(0.1, 0, 0.4, 0) 
  TextBox.BackgroundColor3 = Color3.fromRGB(25, 25, 25) 
- TextBox.PlaceholderText = "等待..." 
+ TextBox.PlaceholderText = "输入..." 
  TextBox.Text = "" 
  TextBox.TextSize = 18 
  TextBox.TextColor3 = Color3.fromRGB(255, 255, 255) 
@@ -92,7 +92,7 @@ local ScreenGui = Instance.new("ScreenGui")
  end) 
   
  local function validateKey(key) 
-     return key == "XiaoLing-EAB36-C51EC-06F8F-89A8A-793ED" 
+     return key == "XiaoLing-2D1E4-74C6F-7ECAB-9C952-E761F" 
  end 
   
  CheckKey.MouseButton1Click:Connect(function() 
@@ -107,7 +107,7 @@ local ScreenGui = Instance.new("ScreenGui")
          TextBox.PlaceholderText = "卡密错了兄弟." 
          TextBox.Text = "" 
          wait(1) 
-         TextBox.PlaceholderText = "等待..." 
+         TextBox.PlaceholderText = "输入..." 
          TextBox.Text = "" 
      end 
  end)
