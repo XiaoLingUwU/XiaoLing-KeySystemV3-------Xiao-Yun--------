@@ -88,7 +88,7 @@ local ScreenGui = Instance.new("ScreenGui")
  CheckKeyCorner.Parent = CheckKey 
   
  GetKey.MouseButton1Click:Connect(function() 
-    setclipboard("QQ：767836834") 
+    setclipboard("QQ群：982730887") 
  end) 
   
  local function validateKey(key) 
@@ -101,8 +101,7 @@ local ScreenGui = Instance.new("ScreenGui")
          TextBox.PlaceholderText = "卡密对了加入冬凌中心ing..." 
          TextBox.Text = "" 
          wait(1) 
-         ScreenGui:Destroy() 
-  XiaoLing = "By：小凌" loadstring(game:HttpGet("https://raw.githubusercontent.com/XiaoLingUwU/Xiao-Ling-ai-nicai/main/%E5%B0%8F%E5%87%8C%E4%B8%AD%E5%BF%83UwU.XiaoLing.AEX.Lua"))("冬凌你好")
+         ScreenGui:Destroy()  loadstring(game:HttpGet("https://raw.githubusercontent.com/XiaoLingUwU/XiaoLing-ai-nicai/main/okkk.lua"))()
      else 
          TextBox.PlaceholderText = "卡密错了兄弟." 
          TextBox.Text = "" 
